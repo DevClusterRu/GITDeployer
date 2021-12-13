@@ -1,4 +1,4 @@
-version: 3
+version: '3'
 services:
   app:
     build: os
@@ -7,3 +7,4 @@ services:
       - ./app/bin:/app
     working_dir: /app
     command: /app/GitDeployer
+    restart: unless-stopped
