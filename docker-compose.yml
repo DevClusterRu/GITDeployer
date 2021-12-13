@@ -1,0 +1,9 @@
+version: 3
+services:
+  app:
+    build: os
+    container_name: git-deployer
+    volumes:
+      - ./app/bin:/app
+    working_dir: /app
+    command: /app/GitDeployer
