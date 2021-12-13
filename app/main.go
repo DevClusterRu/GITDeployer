@@ -1,7 +1,7 @@
 package main
 
 import (
-	"GitDeployer/app/internal"
+	"GitDeployer/internal"
 	"fmt"
 	"os"
 	"strings"
